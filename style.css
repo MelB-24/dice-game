@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titles {
+    font-family: 'Poppins', sans-serif;
+}
+
+.titles h1 {
+    font-size: 60px;
+}
+
+.titles p {
+    font-size: 24px;
+}
+
+.player-rolls {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.player-rolls button {
+    width: 150px;
+    height: 150px;
+    background: url(./dice.jpg);
+    background-size: contain;
+    border: none;
+}
+
+.player-rolls button:focus {
+    outline:0;
+}
+
+.player-one {
+    margin: 18px;
+}
+
+.player-two {
+    margin: 18px;
+}
+
+.play-again-btn {
+    width: 350px;
+    font-size: 40px;
+    border-radius: 12px;
+    background-color: darksalmon;
+    font-family: 'Anton', sans-serif;
+}

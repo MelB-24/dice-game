@@ -5,22 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Anton|Poppins&display=swap');
+    </style>
 </head>
 <body>
-    <div class="player-one">
-        <h1>Player 1</h1>
-        <button class="player-one-dice-button">Roll Dice</button>
-        <p id='player-one-score'>Score: </p>
-        <p id='player-one-score-count'>Score Count: </p>
+    <div class="titles">
+        <h1>Dice Game</h1>
+        <p>First To Reach a score of 50 wins</p>
+        <p>Start Playing Below</p>
     </div>
-    <div class="player-two">
-        <h1>Player 2</h1>
-        <button class="player-two-dice-button">Roll Dice</button>
-        <p id='player-two-score'>This Roll: </p>
-        <p id='player-two-score-count'>Score Count: </p>
+    
+    <div class="player-rolls">
+        <div class="player-one">
+            <h1>Player 1</h1>
+            <button class="player-one-dice-button"></button>
+            
+            <p id='player-one-score'>Score: </p>
+            <p id='player-one-score-count'>Score Count: </p>
+        </div>
+        <div class="player-two">
+            <h1>Player 2</h1>
+            <button class="player-two-dice-button"></button>
+            <p id='player-two-score'>This Roll: </p>
+            <p id='player-two-score-count'>Score Count: </p>
+        </div>
     </div>
-
-    <button class="play-again-btn">Reset Game</button>
+    
+    <button class="play-again-btn">RESET GAME</button>
     
     <script src="./script.js"></script>
 </body>
