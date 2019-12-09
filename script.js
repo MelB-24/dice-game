@@ -61,7 +61,7 @@ twoDice.addEventListener("click", () => {
 }) 
 
 function winningPlayerOne() {
-    if (playerOneScoreCount = 21)
+    if (playerOneScoreCount >= 21)
     {
         resetGame()
         return "You win"
